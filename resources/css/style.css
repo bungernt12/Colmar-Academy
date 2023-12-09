@@ -70,9 +70,4 @@ nav{
 
 .infomain-right {
     display: flex;
-    flex-direction: column;
-    width: 40%;
-    float: right;
-    align-items: center;
-    justify-content: center;
 }
