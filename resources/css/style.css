@@ -58,6 +58,12 @@ nav{
     margin-top: 5%;
 }
 
+.infomain {
+    display: flex;
+    position: relative;
+    top: 64px;
+}
+
 .infomain-left {
     width: 60%;
     height: auto;
@@ -70,4 +76,35 @@ nav{
 
 .infomain-right {
     display: flex;
+    flex-direction: column;
+    padding: 32px 0;
+    width: 40%;
+    border-left: 1px solid grey;
+    
+}
+
+.infomain-block {
+    display: flex;
+}
+
+.infomain-block img {
+    width: 35%;
+    height: auto;
+    margin: 16px;
+}
+
+.infomain-block-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.readmore {
+    color: blue;
+    cursor: pointer;
+}
+
+.readmore:hover {
+    color: lightblue;
 }
