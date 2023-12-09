@@ -23,9 +23,8 @@ nav{
 .banner {
     background-color: rgb(191, 191, 191);
     width: 100%;
-    margin-top: 64px;
     position: relative;
-    top: 64px;
+    top: 0px;
     display: flex;
 }
 
@@ -61,7 +60,7 @@ nav{
 .infomain {
     display: flex;
     position: relative;
-    top: 64px;
+    top: 0px;
 }
 
 .infomain-left {
@@ -112,7 +111,7 @@ nav{
 .courses {
     background-color: rgb(191, 191, 191);
     position: relative;
-    top: 32px;
+    top: 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -147,4 +146,10 @@ nav{
 .courses-block-text p {
     font-size: .8rem;
     color: grey;
+}
+
+@media only screen and (max-width: 1000px) {
+    #schoolname {
+        display: none;
+    }
 }
