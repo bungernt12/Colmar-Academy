@@ -108,3 +108,43 @@ nav{
 .readmore:hover {
     color: lightblue;
 }
+
+.courses {
+    background-color: rgb(191, 191, 191);
+    position: relative;
+    top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.courses h1{
+    margin: 32px auto;
+}
+
+.courses-grid {
+    margin: 0 72px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 3%;
+}
+
+.courses-block {
+    background-color: white;
+    width: 30%;
+    margin-bottom: 32px;
+    }
+
+.courses-block img {
+    width: 100%;
+}
+
+.courses-block-text {
+    padding: 0 16px;
+}
+
+.courses-block-text p {
+    font-size: .8rem;
+    color: grey;
+}
