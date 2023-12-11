@@ -11,6 +11,10 @@ html {
     display: flex;
 }
 
+ul {
+    padding-left: 0;
+}
+
 li{
    display: inline;
    margin-left: 16px;
@@ -51,7 +55,7 @@ nav{
     padding: 5% 20%;
     background-color: rgb(86, 86, 86);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     color: rgb(221, 221, 221);
     box-shadow: none;
     margin-top: 5%;
@@ -80,6 +84,10 @@ nav{
     width: 40%;
     border-left: 1px solid grey;
     
+}
+
+#guestpic {
+    width: 60%;
 }
 
 .infomain-block {
@@ -149,7 +157,72 @@ nav{
 }
 
 @media only screen and (max-width: 1000px) {
+   .infomain {
+    flex-direction: column;
+    width: 100%;
+   }
+
+   .infomain-right {
+    width: 100%;
+   }
+}
+
+@media only screen and (max-width: 620px) {
     #schoolname {
+        display: none;
+    }
+    .headerleft {
+        margin-top: 10px;
+    }
+
+    nav {
+        width: 80%;
+    }
+
+   ul {
+    display: flex;
+    justify-content: space-around;
+   }
+
+
+    .wordNav {
+        display: none;
+    }
+    .banner {
+        flex-direction: column;
+    }
+
+    .bannerleft {
+        width: 100%;
+        padding: 0 0;
+    }
+    
+    .bannerleft img {
+        width: 100%;
+    }
+    .bannerright {
+        width: 100%;
+    }
+    
+    .bannerright h1, .bannerright h3 {
+        padding: 0 16px;
+    }
+
+    .bannerright h3 {
+        margin: 0 0;
+    }
+
+    .button {
+        margin-bottom: 16px;
+    }
+
+    .infomain-left {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 620px) {
+    .iconNav {
         display: none;
     }
 }
