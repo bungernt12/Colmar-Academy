@@ -219,6 +219,23 @@ nav{
     .infomain-left {
         display: none;
     }
+    
+    .courses-grid {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin: 0 0;
+        width: 100%;
+    }
+
+    .courses-block {
+        width: 70%;
+        margin: 5px;
+    }
+
+    .courses img, .courses p {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 620px) {
